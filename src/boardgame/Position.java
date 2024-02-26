@@ -1,14 +1,18 @@
 package boardgame;
 
 public class Position {
+	
+	//atributos
 	private int row;
 	private int column;
 	
+	//contrutor
 	public Position(int row, int column) {
 		this.row = row;
 		this.column = column;
 	}
 	
+	//getters e setters
 	public int getRow() {
 		return row;
 	}
